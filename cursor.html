@@ -43,17 +43,23 @@
             </div>
             <ul class="nav-item">
                 <li>
-                    <a href="/features">
+                    <a href="/features" class="nav-link">
                         Features</a>
                 </li>
                 <li>
-                    Enterprise
+                    <a href="/features" class="nav-link">
+                        Enterprise
+                    </a>
                 </li>
                 <li>
-                    Pricing
+                    <a href="/features" class="nav-link">
+                        Pricing
+                    </a>
                 </li>
                 <li>
-                    Resources
+                    <a href="/features" class="nav-link">
+                        Resources
+                    </a>
                 </li>
             </ul>
 
@@ -66,7 +72,6 @@
     <main class="main-wrap">
         <section class="hero-section container">
             <div>
-
                 <h1 class="hero-title">Built to make you extraordinarily productive,<br> Cursor is the best way to code
                     with
                     AI.</h1>
@@ -75,7 +80,14 @@
                 </div>
             </div>
             <div class="img-container">
-                <img src="/assets/herobg1.jpg" alt="bg-img" class="img-hero" />
+                <div style="position: relative;">
+
+                    <img src="/assets/herobg1.jpg" alt="bg-img" class="img-hero" />
+                </div>
+                <!-- <div style="position: absolute;">
+
+                    <img src=" /assets/hergBG.png " alt=" img" class="upper-img" />
+            </div> -->
             </div>
 
         </section>
@@ -501,8 +513,8 @@
             <div class="container" style="display: flex; padding: 40px 0;">
 
 
-                <div style="width: 30%; padding: 40px 0 ;">
-                    <h2>Recent highlights</h2>
+                <div style="width: 30%;">
+                    <h2 class="recent-heading"> Recent highlights</h2>
                 </div>
 
                 <div class=" highliht-card-container">
@@ -511,7 +523,7 @@
 
                             <p class="high-title">Introducing Cursor 2.0 and Composer</p>
                             <p class="high-subtitle">A new interface and our first coding model, both purpose-built for
-                                working
+                                working<br>
                                 with agents.</p>
                         </div>
                         <p class="high-subtitle " style="margin-bottom: 0;">Product .<span>Oct 29, 2025</span></p>
@@ -521,7 +533,7 @@
 
                             <p class="high-title">Improving Cursor Tab with online RL</p>
                             <p class="high-subtitle">Our new Tab model makes 21% fewer suggestions while having 28%
-                                higher
+                                higher<br>
                                 accept rate.</p>
                         </div>
                         <p class="high-subtitle " style="margin-bottom: 0;">Research .<span>Sep 12 , 2025</span></p>
@@ -531,7 +543,8 @@
 
                             <p class="high-title">1.5x faster MoE training with custom MXFP8 kernels</p>
                             <p class="high-subtitle">Achieving a 3.5x MoE layer speedup with a complete rebuild for
-                                Blackwell GPUs.</p>
+                                <br> Blackwell GPUs.
+                            </p>
                         </div>
                         <p class="high-subtitle " style="margin-bottom: 0;">Research .<span>Aug 29, 2025</span></p>
                     </div>
@@ -542,7 +555,83 @@
             </div>
 
         </section>
+        <section class="container">
+            <div class="final-section">
+
+                <h2>Try Cursor now.</h2>
+                <div>
+                    <button type="" class="btn-download" id="btn-linux">Download for Linux &#8595;</button>
+                </div>
+            </div>
+        </section>
+
     </main>
+    <footer class="brand-container" style="flex-direction: column;">
+        <div class="container ">
+            <div class="footer-wrap">
+
+
+                <div>
+                    <h3 class="footer-head">Product</h3>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-link">Features</a></li>
+                        <li><a href="#" class="footer-link">Enterprise</a></li>
+                        <li><a href="#" class="footer-link">Web Agents</a></li>
+                        <li><a href="#" class="footer-link">Bugbot</a></li>
+                        <li><a href="#" class="footer-link">CLI</a></li>
+                        <li><a href="#" class="footer-link">Pricing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-head">Resourcse</h3>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-link">Download</a></li>
+                        <li><a href="#" class="footer-link">Changelog</a></li>
+                        <li><a href="#" class="footer-link">Docs</a></li>
+                        <li><a href="#" class="footer-link">Learn</a></li>
+                        <li><a href="#" class="footer-link">Forum</a></li>
+                        <li><a href="#" class="footer-link">Status</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-head">Company</h3>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-link">Carrers</a></li>
+                        <li><a href="#" class="footer-link">Blog</a></li>
+                        <li><a href="#" class="footer-link">Community</a></li>
+                        <li><a href="#" class="footer-link">Workshops</a></li>
+                        <li><a href="#" class="footer-link">Students</a></li>
+                        <li><a href="#" class="footer-link">Brand</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-head">Legal</h3>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-link">Term of service</a></li>
+                        <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                        <li><a href="#" class="footer-link">Data Use</a></li>
+                        <li><a href="#" class="footer-link">Security</a></li>
+
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-head">Connect</h3>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-link">X</a></li>
+                        <li><a href="#" class="footer-link">Linkdin</a></li>
+                        <li><a href="#" class="footer-link">YouTube</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <small class=" certified">&copy; 2026 Cursor Sco 2 Certified.</small>
+                <!-- <div>2</div> -->
+            </div>
+        </div>
+
+
+    </footer>
 </body>
 
 </html>

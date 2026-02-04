@@ -46,6 +46,10 @@ nav {
     /* width: inherit; */
 }
 
+.nav-link {
+    color: var(--primary-color);
+}
+
 .logo-icon {
     width: 100px;
 }
@@ -105,6 +109,11 @@ nav {
     font-family: "Cursor Gothic", Helvetica, Arial, sans-serif;
 }
 
+.btn-download img {
+    width: 14px;
+    height: 14px;
+}
+
 .main-wrap {
 
     margin-top: 40px;
@@ -122,6 +131,7 @@ nav {
     font-size: 26px;
     letter-spacing: -.0125em;
     margin-bottom: 20px;
+    font-weight: 400;
 }
 
 #btn-linux {
@@ -133,8 +143,9 @@ nav {
 .img-container {
     padding-top: 20px;
     margin: 20px 0;
-
 }
+
+
 
 .img-hero {
     min-height: 680px;
@@ -414,15 +425,79 @@ nav {
 
     padding: 10px;
     border: 1px solid #201e18;
+    padding-right: 70px;
+}
+
+.recent-heading {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.005em;
+
 }
 
 .high-subtitle {
     font-size: 16px;
     color: #8f8c89;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .high-title {
     padding: 10px 0;
     font-weight: 500px;
+}
+
+.final-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    padding: 40px 0;
+}
+
+.final-section h2 {
+    font-size: 72px;
+    font-weight: 500;
+}
+
+.footer-wrap {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.footer-link {
+    color: #edecec;
+    font-size: 14px;
+    font-weight: 600px;
+}
+
+.footer-head {
+    color: #999895;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.copyright {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.certified {
+    font-size: 14px;
+    color: #999895;
+    letter-spacing: 0.01em;
 }
